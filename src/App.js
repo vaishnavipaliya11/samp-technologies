@@ -1,6 +1,7 @@
 import './App.css';
 import { About } from './components/about/About';
 import { Intro } from './components/Intro/Intro';
+import { ParentsTalkContainer } from './components/parents-talk/ParentsTalk';
 import { SubjectContainer } from './components/subject/Subject';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Intro/>
       <About/>
       <SubjectContainer/>
+      <ParentsTalkContainer/>
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.parent-item-card{
+    max-width: 15rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0.5rem;
+}
+.parent-item-card img{
+    max-width: 5rem;
+    max-height: 5rem;
+}
+.parent-description{
+    text-align: left;
+}
+.parent-container span{
+    color: black;
+}
