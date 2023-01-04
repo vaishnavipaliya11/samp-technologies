@@ -1,0 +1,17 @@
+.about-special-container{
+    max-width: 15rem;
+    min-height: 15rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.about-special-container img{
+    max-width: 100%;
+}
+.about-part-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+.about-part-two img{
+    max-width: 30rem;
+    max-height: 20rem;
+}

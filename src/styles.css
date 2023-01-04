@@ -2,6 +2,7 @@
   --primary-clr: #a212ff;
   --text-clr: rgb(255, 255, 255);
 }
+
 .common-flex-row {
   display: flex;
 }
