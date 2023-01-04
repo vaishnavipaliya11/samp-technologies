@@ -1,0 +1,22 @@
+.subject-container{
+   
+}
+.crousel-container{
+    max-width: 80%;
+    margin: auto;
+    background-color:#d946ef;
+    border-radius: 15px;
+    padding: 1.5rem;
+}
+/* crousel-item-card */
+.crousel-item-card{
+    max-height: 12rem;
+    background-color: var(--text-clr);
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.crousel-item-card img{
+    max-height: 8rem;
+    max-width: 10rem;
+}
