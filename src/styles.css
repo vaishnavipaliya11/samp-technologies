@@ -1,0 +1,55 @@
+:root {
+  --primary-clr: #a212ff;
+  --text-clr: rgb(255, 255, 255);
+}
+.common-flex-row {
+  display: flex;
+}
+.common-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+/* navbar */
+.navbar-container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.navbar-container button {
+  background: none;
+  color: var(--text-clr);
+  border: none;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+.navbar-container h4 {
+  color: var(--text-clr);
+}
+
+.text-color{
+    color: var(--text-clr)
+}
+.margin-sm{
+    margin: 0.5rem
+}
+.justify-space-evenly{
+    justify-content: space-evenly;
+}
+
+.primary-btn{
+    background-color: var(--primary-clr);
+    color: var(--text-clr);
+    border-radius: 10px;
+    border: var(--primary-clr);
+    padding: 0.5rem;
+}
+.secondary-btn{
+    background-color: var(--text-clr);
+    color: var(--primary-clr);
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: var(--text-clr);
+}
