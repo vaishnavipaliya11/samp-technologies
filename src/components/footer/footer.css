@@ -1,0 +1,11 @@
+.media-img{
+    max-width: 25%;
+}
+.social-media{
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.bottom-footer{
+    justify-content: space-between;
+}
