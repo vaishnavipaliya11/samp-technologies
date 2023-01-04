@@ -3,7 +3,7 @@ import "../../components/questions/question.css";
 export const QuestionsAsked = () => {
   return (
     <div>
-      <div className="common-flex-row question-block">
+      <div className="common-flex-row question-block margin-bg">
         <img
           src="https://www.cherrilearn.com/static/media/Groupqa.46d923e5.png"
           id="question-img"

@@ -3,7 +3,6 @@ import { SubjectCrouselItem } from "./SubjectCrouseltem";
 import { subjectCrouselData } from "./subjectData";
 import "../subject/subject.css";
 import "../../styles.css";
-import Item from "./Item";
 export const SubjectContainer = () => {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -12,7 +11,7 @@ export const SubjectContainer = () => {
     { width: 1200, itemsToShow: 4 },
   ];
   return (
-    <div className="subject-container">
+    <div className="subject-container margin-bg">
       <h4>An intresting </h4>
       <h4 className="text-primary-color">Design for learning</h4>
       <div className="crousel-container">

@@ -1,7 +1,7 @@
 import "../../styles.css"
 export const SupportEducation =()=>{
     return(
-        <div className="support-education-container common-flex-row">
+        <div className="support-education-container common-flex-row margin-bg">
             <img src="https://www.cherrilearn.com/static/media/educationGroup.09ba9198.png"/>
             <div className="education-detail common-flex-column">
                 <h4>Support Children Education</h4>

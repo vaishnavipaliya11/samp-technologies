@@ -4,7 +4,7 @@ export const ParentsViewCard = ({ data }) => {
   console.log(data, "daya");
 
   return (
-    <div className="parent-item-card">
+    <div className="parent-item-card margin-bg">
       <div className="common-flex-row align-center">
         <img src={data.img} />
         <h5>{data.name} </h5>

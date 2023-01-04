@@ -10,8 +10,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
+    max-width: 70%;
+    margin: auto;
 }
 .about-part-two img{
     max-width: 30rem;
     max-height: 20rem;
+}
+.about-part-two p{
+    text-align: left;
 }

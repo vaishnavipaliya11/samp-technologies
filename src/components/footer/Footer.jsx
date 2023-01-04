@@ -3,7 +3,7 @@ import "../footer/footer.css";
 export const Footer = () => {
   return (
     <div>
-      <div className="common-flex-row center social-media">
+      <div className="common-flex-row center social-media margin-bg">
         <img
           className="media-img margin-sm"
           src="https://www.cherrilearn.com/static/media/cherriss.e567afb0.png"
@@ -22,8 +22,8 @@ export const Footer = () => {
           src="https://www.cherrilearn.com/static/media/footer1New.ff93729d.png"
         />
         <div>
-          <h2>Cheery Learn</h2>
-          <button className="primary-btn">Download</button>
+          <h2 className="text-color">Cheery Learn</h2>
+          <button className="secondary-btn">Download</button>
         </div>
         <img
           className="media-img margin-sm"

@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 :root {
   --primary-clr: #a212ff;
   --text-clr: rgb(255, 255, 255);
 }
 
+body{
+    font-family: 'Comic Neue', cursive;
+}
 .common-flex-row {
   display: flex;
 }
@@ -13,9 +18,19 @@
 .align-center {
   align-items: center;
 }
+.main-container{
+    background: linear-gradient(
+    180deg,
+    rgba(162, 18, 255, 0),
+    rgba(162, 18, 255, 0.17) 19.79%,
+    rgba(162, 18, 255, 0.21) 77.08%,
+    #a212ff 96.49%
+  );
+}
 .component-main-container{
     max-width: 90%;
     margin: auto;
+
 }
 /* navbar */
 .navbar-container {
@@ -70,6 +85,9 @@
     max-width: 30%;
     align-items: center;
     margin: 1rem;
+}
+.support-education-container p{
+    text-align: left;
 }
 .support-education-container img{
     max-width: 20%;

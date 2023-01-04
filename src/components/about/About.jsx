@@ -7,7 +7,7 @@ import "../about/about.css";
 export const About = () => {
   return (
     <div>
-      <div>
+      <div className="margin-bg">
         <h4>What's inside cherry learn</h4>
         <div className="common-flex-row justify-space-evenly align-center">
           <div className="about-special-container">
